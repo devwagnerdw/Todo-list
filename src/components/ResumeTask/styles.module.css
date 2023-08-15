@@ -1,0 +1,57 @@
+.resumeTasks {
+  margin-top: 4rem;
+  display: block;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 1.5rem;
+}
+
+.detailsTasks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 1.5rem;
+}
+
+.totalTask {
+  display: flex;
+  gap: 1rem;
+}
+
+.totalTask span {
+  font-weight: bold;
+  font-size: 0.875rem;
+  color: var(--blue);
+}
+
+.totalTaskCreated {
+  display: flex;
+  color: var(--gray-200);
+  font-weight: bold;
+  background: var(--gray-400);
+  font-size: 0.75rem;
+  border-radius: 9999px;
+  padding: 2px 8px;
+}
+
+.tasksCompleted {
+  display: flex;
+  gap: 1rem;
+}
+
+.tasksCompleted span {
+  font-weight: bold;
+  font-size: 0.875rem;
+  color: var(--purple);
+}
+
+.totalTaskCompleted {
+  display: flex;
+  color: var(--gray-200);
+  font-weight: bold;
+  background: var(--gray-400);
+  font-size: 0.75rem;
+  border-radius: 9999px;
+  padding: 2px 8px;
+}

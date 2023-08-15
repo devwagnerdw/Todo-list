@@ -1,0 +1,62 @@
+.taskContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background: var(--gray-500);
+  border: 1px solid var(--gray-400);
+
+  border-radius: 8px;
+
+  margin-bottom: 0.75rem;
+  white-space: normal;
+}
+
+.taskContent {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  white-space: normal;
+
+  /* height: auto; */
+  /* overflow: hidden; */
+}
+.taskContent > p {
+  font-weight: 400;
+  white-space: normal;
+}
+
+.taskContainer button {
+  background: var(--gray-500);
+  cursor: pointer;
+  border: none;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0.205rem;
+}
+
+.taskContainer button svg {
+  text-align: center;
+  width: 1.091rem;
+  height: 1.091rem;
+  color: var(--blue);
+  transition: color 0.2s;
+}
+
+.taskContainer button svg:hover {
+  color: var(--blue-dark);
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.taskContainer .trashIcon svg {
+  color: var(--gray-300);
+  width: 1.091rem;
+  height: 1.091rem;
+  transition: color 0.2s;
+}
+
+.taskContainer .trashIcon svg:hover {
+  color: var(--red);
+}

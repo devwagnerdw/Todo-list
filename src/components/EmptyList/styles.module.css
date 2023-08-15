@@ -1,0 +1,28 @@
+.Container {
+  border-top: 1px solid var(--gray-400);
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerContent {
+  margin-top: 5.5rem;
+
+  display: block;
+
+  text-align: center;
+}
+
+.containerContent img {
+  width: 3.5rem;
+  height: 3.5rem;
+  margin-bottom: 1rem;
+}
+.containerContent p {
+  line-height: 22px;
+}
+
+.containerContent p:first-of-type {
+  font-weight: 700;
+}
